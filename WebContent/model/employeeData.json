@@ -1,0 +1,19 @@
+{
+ "employees" : [
+  {
+   "name" : "Devender",
+   "role" : "Trainer",
+   "dept" : "UI5"
+  },
+  {
+   "name" : "Surender",
+   "role" : "Marketing",
+   "dept" : "Ads"
+  },
+  {
+   "name" : "Mahender",
+   "role" : "Developer",
+   "dept" : "Java"
+  }
+ ]
+}

@@ -9,8 +9,19 @@ sap.ui.controller("ztable.Employees", {
 		
 		 var oModel = new sap.ui.model.json.JSONModel();
          oModel.loadData("model/employeeData.json");
-         
+         //default
          this.getView().setModel(oModel);
+         
+        sap.ui.localResources("i18n"); 
+         //i18n
+         var oRModel = new sap.ui.model.resource.ResourceModel({
+        	 bundleName : "i18n.mySource"
+         });
+         //named model
+         this.getView().setModel(oRModel, "m2");
+         
+         
+         
 	},
 
 /**

@@ -1,13 +1,13 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 		controllerName="ztable.Employees" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="Title">
+	<Page title="{m2>title}">
 		<content>
 	         	<Table id="idProductsTable"
 		inset="false" items="{/employees}">
 				<columns>
 					<Column
 						width="12em">
-						<Text text="Name" />
+						<Text text="{m2>name}" />
 					</Column>
 					<Column
 						minScreenWidth="Tablet"
